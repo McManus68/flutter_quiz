@@ -32,7 +32,7 @@ class QuizViewModel extends StateNotifier<QuizState> {
   void nextQuestion(List<Question> questions, int currentIndex) {
     state = state.copyWith(
         selectedAnswer: '',
-        status: currentIndex < questions.length ? QuizStatus.initial : QuizStatus.complete);
+        status: currentIndex + 1 < questions.length ? QuizStatus.initial : QuizStatus.complete);
   }
 
   void reset() {

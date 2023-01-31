@@ -2,6 +2,9 @@
 
 Quizz App With Flutter
 
+export PATH=/Users/Mc/Documents/prog/flutter/bin:$PATH
+
+
 ## Getting Started
 
 This project is a starting point for a Flutter application.

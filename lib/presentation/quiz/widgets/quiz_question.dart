@@ -52,7 +52,7 @@ class QuizQuestion extends HookConsumerWidget {
                   const Spacer(),
                   Padding(
                       padding: const EdgeInsets.only(right: 10.0, bottom: 5.0),
-                      child: Text('${index + 1}/${questions.length}',
+                      child: Text('$index/${questions.length}',
                           textAlign: TextAlign.right,
                           style: const TextStyle(
                             color: Colors.white,
